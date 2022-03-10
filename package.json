@@ -1,0 +1,22 @@
+{
+  "name": "git-worktree-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcpascualsanchez/git-worktree-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcpascualsanchez/git-worktree-example/issues"
+  },
+  "homepage": "https://github.com/marcpascualsanchez/git-worktree-example#readme",
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
