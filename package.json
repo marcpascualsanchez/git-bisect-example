@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/marcpascualsanchez/git-worktree-example#readme",
   "devDependencies": {
+    "@types/node": "^17.0.21",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "chalk": "^4.0.1"
   }
 }
