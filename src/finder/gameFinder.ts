@@ -5,11 +5,12 @@ import forza from "../games/forza";
 import { IGame } from "../games/IGame";
 import leagueOfLegends from "../games/leagueOfLegends";
 import lostArk from "../games/lostArk";
+import marioKart from "../games/marioKart";
 import overwatch from "../games/overwatch";
 import rocketLeague from "../games/rocketLeague";
 import zelda from "../games/zelda";
 
-const allGames: IGame[] = [leagueOfLegends, animalCrossing, battlefieldV, lostArk, zelda, forza, ageOfEmpires, overwatch, rocketLeague];
+const allGames: IGame[] = [leagueOfLegends, animalCrossing, battlefieldV, lostArk, zelda, forza, ageOfEmpires, overwatch, rocketLeague, marioKart];
 
 function getRandom(list: any[]): any {
   return list[Math.floor(Math.random() * list.length)];
