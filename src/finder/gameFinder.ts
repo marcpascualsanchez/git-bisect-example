@@ -1,3 +1,4 @@
+import ageOfEmpires from "../games/ageOfEmpires";
 import animalCrossing from "../games/animalCrossing";
 import battlefieldV from "../games/battlefieldV";
 import forza from "../games/forza";
@@ -6,7 +7,7 @@ import leagueOfLegends from "../games/leagueOfLegends";
 import lostArk from "../games/lostArk";
 import zelda from "../games/zelda";
 
-const allGames: IGame[] = [leagueOfLegends, animalCrossing, battlefieldV, lostArk, zelda, forza];
+const allGames: IGame[] = [leagueOfLegends, animalCrossing, battlefieldV, lostArk, zelda, forza, ageOfEmpires];
 
 function getRandom(list: any[]): any {
   return list[Math.floor(Math.random() * list.length)];
