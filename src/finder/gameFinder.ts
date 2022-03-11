@@ -10,7 +10,18 @@ import overwatch from "../games/overwatch";
 import rocketLeague from "../games/rocketLeague";
 import zelda from "../games/zelda";
 
-const allGames: IGame[] = [leagueOfLegends, animalCrossing, battlefieldV, lostArk, zelda, forza, ageOfEmpires, overwatch, rocketLeague, marioKart];
+const allGames: IGame[] = [
+  leagueOfLegends,
+  animalCrossing,
+  battlefieldV,
+  lostArk,
+  zelda,
+  forza,
+  ageOfEmpires,
+  overwatch,
+  rocketLeague,
+  marioKart,
+];
 
 function getRandom(list: any[]): any {
   return list[Math.floor(Math.random() * list.length)];
