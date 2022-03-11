@@ -15,5 +15,6 @@ export function findRandomGame(availableTime: number): IGame {
     if (availableTime) {
         availableGames = allGames.filter(g => availableTime <= g.maxDuration && availableTime >= g.minDuration)
     }
+    throw Error("I AM A NASTY BUG");
     return getRandom(availableGames)
 }
