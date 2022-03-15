@@ -1,4 +1,4 @@
-# Worktree example
+# Bisect example
 
 ## Guide
 Have you ever noticed a bug but you don't understand **when** and **how** it was created?
